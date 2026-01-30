@@ -1,0 +1,2339 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineSystem.cmake:212 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 10.0.26200 - AMD64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "c:\\Users\\avery\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\avery\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Users\\avery\\Downloads\\SupplementMATLAB244\\bin"
+        - "C:\\Program Files\\HP\\HP One Agent"
+        - "C:\\Program Files\\Wolfram Research\\WolframScript\\"
+        - "C:\\Program Files\\PuTTY\\"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\avery\\AppData\\Local\\Programs\\Python\\Python312\\Scripts\\"
+        - "C:\\Users\\avery\\AppData\\Local\\Programs\\Python\\Python312\\"
+        - "C:\\Users\\avery\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files\\Java\\jdk-19\\bin"
+        - "C:\\Users\\avery\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\avery\\AppData\\Local\\Programs\\MiKTeX\\miktex\\bin\\x64\\"
+        - "C:\\Users\\avery\\AppData\\Local\\GitHubDesktop\\bin"
+        - "c:\\Users\\avery\\.vscode\\extensions\\ms-python.debugpy-2025.18.0-win32-x64\\bundled\\scripts\\noConfigScripts"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 17.14.14+a129329f1 for .NET Framework
+      Build started 1/17/2026 4:51:18 PM.
+      
+      Project "C:\\Users\\avery\\Radar Signal Tracking Project\\cpp\\build\\CMakeFiles\\4.2.1\\CompilerIdC\\CompilerIdC.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+        Creating directory "Debug\\CompilerIdC.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        Touching "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> C:\\Users\\avery\\Radar Signal Tracking Project\\cpp\\build\\CMakeFiles\\4.2.1\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
+      Done Building Project "C:\\Users\\avery\\Radar Signal Tracking Project\\cpp\\build\\CMakeFiles\\4.2.1\\CompilerIdC\\CompilerIdC.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:01.05
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        C:/Users/avery/Radar Signal Tracking Project/cpp/build/CMakeFiles/4.2.1/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:103 (__resolve_linker_path)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "link"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/"
+      - "C:/Users/avery/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "C:/Users/avery/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Users/avery/Downloads/SupplementMATLAB244/bin/"
+      - "C:/Program Files/HP/HP One Agent/"
+      - "C:/Program Files/Wolfram Research/WolframScript/"
+      - "C:/Program Files/PuTTY/"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/avery/AppData/Local/Programs/Python/Python312/Scripts/"
+      - "C:/Users/avery/AppData/Local/Programs/Python/Python312/"
+      - "C:/Users/avery/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Program Files/Java/jdk-19/bin/"
+      - "C:/Users/avery/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/avery/AppData/Local/Programs/MiKTeX/miktex/bin/x64/"
+      - "C:/Users/avery/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Users/avery/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/link.com"
+    found: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/link.exe"
+    search_context:
+      ENV{PATH}:
+        - "c:\\Users\\avery\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\avery\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Users\\avery\\Downloads\\SupplementMATLAB244\\bin"
+        - "C:\\Program Files\\HP\\HP One Agent"
+        - "C:\\Program Files\\Wolfram Research\\WolframScript\\"
+        - "C:\\Program Files\\PuTTY\\"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\avery\\AppData\\Local\\Programs\\Python\\Python312\\Scripts\\"
+        - "C:\\Users\\avery\\AppData\\Local\\Programs\\Python\\Python312\\"
+        - "C:\\Users\\avery\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files\\Java\\jdk-19\\bin"
+        - "C:\\Users\\avery\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\avery\\AppData\\Local\\Programs\\MiKTeX\\miktex\\bin\\x64\\"
+        - "C:\\Users\\avery\\AppData\\Local\\GitHubDesktop\\bin"
+        - "c:\\Users\\avery\\.vscode\\extensions\\ms-python.debugpy-2025.18.0-win32-x64\\bundled\\scripts\\noConfigScripts"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:104 (__resolve_linker_path)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lld-link"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/"
+      - "C:/Users/avery/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "C:/Users/avery/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Users/avery/Downloads/SupplementMATLAB244/bin/"
+      - "C:/Program Files/HP/HP One Agent/"
+      - "C:/Program Files/Wolfram Research/WolframScript/"
+      - "C:/Program Files/PuTTY/"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/avery/AppData/Local/Programs/Python/Python312/Scripts/"
+      - "C:/Users/avery/AppData/Local/Programs/Python/Python312/"
+      - "C:/Users/avery/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Program Files/Java/jdk-19/bin/"
+      - "C:/Users/avery/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/avery/AppData/Local/Programs/MiKTeX/miktex/bin/x64/"
+      - "C:/Users/avery/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Users/avery/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lld-link.com"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lld-link.exe"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lld-link"
+      - "C:/Users/avery/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/lld-link.com"
+      - "C:/Users/avery/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/lld-link.exe"
+      - "C:/Users/avery/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/lld-link"
+      - "C:/Users/avery/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/lld-link.com"
+      - "C:/Users/avery/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/lld-link.exe"
+      - "C:/Users/avery/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/lld-link"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/lld-link.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/lld-link.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/lld-link"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/lld-link.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/lld-link.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/lld-link"
+      - "C:/Windows/System32/lld-link.com"
+      - "C:/Windows/System32/lld-link.exe"
+      - "C:/Windows/System32/lld-link"
+      - "C:/Windows/lld-link.com"
+      - "C:/Windows/lld-link.exe"
+      - "C:/Windows/lld-link"
+      - "C:/Windows/System32/wbem/lld-link.com"
+      - "C:/Windows/System32/wbem/lld-link.exe"
+      - "C:/Windows/System32/wbem/lld-link"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link"
+      - "C:/Windows/System32/OpenSSH/lld-link.com"
+      - "C:/Windows/System32/OpenSSH/lld-link.exe"
+      - "C:/Windows/System32/OpenSSH/lld-link"
+      - "C:/Users/avery/Downloads/SupplementMATLAB244/bin/lld-link.com"
+      - "C:/Users/avery/Downloads/SupplementMATLAB244/bin/lld-link.exe"
+      - "C:/Users/avery/Downloads/SupplementMATLAB244/bin/lld-link"
+      - "C:/Program Files/HP/HP One Agent/lld-link.com"
+      - "C:/Program Files/HP/HP One Agent/lld-link.exe"
+      - "C:/Program Files/HP/HP One Agent/lld-link"
+      - "C:/Program Files/Wolfram Research/WolframScript/lld-link.com"
+      - "C:/Program Files/Wolfram Research/WolframScript/lld-link.exe"
+      - "C:/Program Files/Wolfram Research/WolframScript/lld-link"
+      - "C:/Program Files/PuTTY/lld-link.com"
+      - "C:/Program Files/PuTTY/lld-link.exe"
+      - "C:/Program Files/PuTTY/lld-link"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/lld-link.com"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/lld-link.exe"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/lld-link"
+      - "C:/Program Files/dotnet/lld-link.com"
+      - "C:/Program Files/dotnet/lld-link.exe"
+      - "C:/Program Files/dotnet/lld-link"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link"
+      - "C:/Program Files/Git/cmd/lld-link.com"
+      - "C:/Program Files/Git/cmd/lld-link.exe"
+      - "C:/Program Files/Git/cmd/lld-link"
+      - "C:/Program Files/CMake/bin/lld-link.com"
+      - "C:/Program Files/CMake/bin/lld-link.exe"
+      - "C:/Program Files/CMake/bin/lld-link"
+      - "C:/Users/avery/AppData/Local/Programs/Python/Python312/Scripts/lld-link.com"
+      - "C:/Users/avery/AppData/Local/Programs/Python/Python312/Scripts/lld-link.exe"
+      - "C:/Users/avery/AppData/Local/Programs/Python/Python312/Scripts/lld-link"
+      - "C:/Users/avery/AppData/Local/Programs/Python/Python312/lld-link.com"
+      - "C:/Users/avery/AppData/Local/Programs/Python/Python312/lld-link.exe"
+      - "C:/Users/avery/AppData/Local/Programs/Python/Python312/lld-link"
+      - "C:/Users/avery/AppData/Local/Microsoft/WindowsApps/lld-link.com"
+      - "C:/Users/avery/AppData/Local/Microsoft/WindowsApps/lld-link.exe"
+      - "C:/Users/avery/AppData/Local/Microsoft/WindowsApps/lld-link"
+      - "C:/Program Files/Java/jdk-19/bin/lld-link.com"
+      - "C:/Program Files/Java/jdk-19/bin/lld-link.exe"
+      - "C:/Program Files/Java/jdk-19/bin/lld-link"
+      - "C:/Users/avery/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.com"
+      - "C:/Users/avery/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.exe"
+      - "C:/Users/avery/AppData/Local/Programs/Microsoft VS Code/bin/lld-link"
+      - "C:/Users/avery/AppData/Local/Programs/MiKTeX/miktex/bin/x64/lld-link.com"
+      - "C:/Users/avery/AppData/Local/Programs/MiKTeX/miktex/bin/x64/lld-link.exe"
+      - "C:/Users/avery/AppData/Local/Programs/MiKTeX/miktex/bin/x64/lld-link"
+      - "C:/Users/avery/AppData/Local/GitHubDesktop/bin/lld-link.com"
+      - "C:/Users/avery/AppData/Local/GitHubDesktop/bin/lld-link.exe"
+      - "C:/Users/avery/AppData/Local/GitHubDesktop/bin/lld-link"
+      - "C:/Users/avery/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/lld-link.com"
+      - "C:/Users/avery/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/lld-link.exe"
+      - "C:/Users/avery/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/lld-link"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "c:\\Users\\avery\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\avery\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Users\\avery\\Downloads\\SupplementMATLAB244\\bin"
+        - "C:\\Program Files\\HP\\HP One Agent"
+        - "C:\\Program Files\\Wolfram Research\\WolframScript\\"
+        - "C:\\Program Files\\PuTTY\\"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\avery\\AppData\\Local\\Programs\\Python\\Python312\\Scripts\\"
+        - "C:\\Users\\avery\\AppData\\Local\\Programs\\Python\\Python312\\"
+        - "C:\\Users\\avery\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files\\Java\\jdk-19\\bin"
+        - "C:\\Users\\avery\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\avery\\AppData\\Local\\Programs\\MiKTeX\\miktex\\bin\\x64\\"
+        - "C:\\Users\\avery\\AppData\\Local\\GitHubDesktop\\bin"
+        - "c:\\Users\\avery\\.vscode\\extensions\\ms-python.debugpy-2025.18.0-win32-x64\\bundled\\scripts\\noConfigScripts"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "link"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/"
+      - "C:/Users/avery/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "C:/Users/avery/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Users/avery/Downloads/SupplementMATLAB244/bin/"
+      - "C:/Program Files/HP/HP One Agent/"
+      - "C:/Program Files/Wolfram Research/WolframScript/"
+      - "C:/Program Files/PuTTY/"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/avery/AppData/Local/Programs/Python/Python312/Scripts/"
+      - "C:/Users/avery/AppData/Local/Programs/Python/Python312/"
+      - "C:/Users/avery/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Program Files/Java/jdk-19/bin/"
+      - "C:/Users/avery/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/avery/AppData/Local/Programs/MiKTeX/miktex/bin/x64/"
+      - "C:/Users/avery/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Users/avery/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/link.com"
+    found: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/link.exe"
+    search_context:
+      ENV{PATH}:
+        - "c:\\Users\\avery\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\avery\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Users\\avery\\Downloads\\SupplementMATLAB244\\bin"
+        - "C:\\Program Files\\HP\\HP One Agent"
+        - "C:\\Program Files\\Wolfram Research\\WolframScript\\"
+        - "C:\\Program Files\\PuTTY\\"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\avery\\AppData\\Local\\Programs\\Python\\Python312\\Scripts\\"
+        - "C:\\Users\\avery\\AppData\\Local\\Programs\\Python\\Python312\\"
+        - "C:\\Users\\avery\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files\\Java\\jdk-19\\bin"
+        - "C:\\Users\\avery\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\avery\\AppData\\Local\\Programs\\MiKTeX\\miktex\\bin\\x64\\"
+        - "C:\\Users\\avery\\AppData\\Local\\GitHubDesktop\\bin"
+        - "c:\\Users\\avery\\.vscode\\extensions\\ms-python.debugpy-2025.18.0-win32-x64\\bundled\\scripts\\noConfigScripts"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_MT"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "mt"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/"
+      - "C:/Users/avery/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "C:/Users/avery/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Users/avery/Downloads/SupplementMATLAB244/bin/"
+      - "C:/Program Files/HP/HP One Agent/"
+      - "C:/Program Files/Wolfram Research/WolframScript/"
+      - "C:/Program Files/PuTTY/"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/avery/AppData/Local/Programs/Python/Python312/Scripts/"
+      - "C:/Users/avery/AppData/Local/Programs/Python/Python312/"
+      - "C:/Users/avery/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Program Files/Java/jdk-19/bin/"
+      - "C:/Users/avery/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/avery/AppData/Local/Programs/MiKTeX/miktex/bin/x64/"
+      - "C:/Users/avery/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Users/avery/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/mt.com"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/mt.exe"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/mt"
+      - "C:/Users/avery/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/mt.com"
+      - "C:/Users/avery/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/mt.exe"
+      - "C:/Users/avery/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/mt"
+      - "C:/Users/avery/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/mt.com"
+      - "C:/Users/avery/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/mt.exe"
+      - "C:/Users/avery/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/mt"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/mt.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/mt.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/mt"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/mt.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/mt.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/mt"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/mt.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/mt.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/mt"
+      - "C:/Windows/System32/mt.com"
+      - "C:/Windows/System32/mt.exe"
+      - "C:/Windows/System32/mt"
+      - "C:/Windows/mt.com"
+      - "C:/Windows/mt.exe"
+      - "C:/Windows/mt"
+      - "C:/Windows/System32/wbem/mt.com"
+      - "C:/Windows/System32/wbem/mt.exe"
+      - "C:/Windows/System32/wbem/mt"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt"
+      - "C:/Windows/System32/OpenSSH/mt.com"
+      - "C:/Windows/System32/OpenSSH/mt.exe"
+      - "C:/Windows/System32/OpenSSH/mt"
+      - "C:/Users/avery/Downloads/SupplementMATLAB244/bin/mt.com"
+      - "C:/Users/avery/Downloads/SupplementMATLAB244/bin/mt.exe"
+      - "C:/Users/avery/Downloads/SupplementMATLAB244/bin/mt"
+      - "C:/Program Files/HP/HP One Agent/mt.com"
+      - "C:/Program Files/HP/HP One Agent/mt.exe"
+      - "C:/Program Files/HP/HP One Agent/mt"
+      - "C:/Program Files/Wolfram Research/WolframScript/mt.com"
+      - "C:/Program Files/Wolfram Research/WolframScript/mt.exe"
+      - "C:/Program Files/Wolfram Research/WolframScript/mt"
+      - "C:/Program Files/PuTTY/mt.com"
+      - "C:/Program Files/PuTTY/mt.exe"
+      - "C:/Program Files/PuTTY/mt"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/mt.com"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/mt.exe"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/mt"
+      - "C:/Program Files/dotnet/mt.com"
+      - "C:/Program Files/dotnet/mt.exe"
+      - "C:/Program Files/dotnet/mt"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/mt.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/mt.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/mt"
+      - "C:/Program Files/Git/cmd/mt.com"
+      - "C:/Program Files/Git/cmd/mt.exe"
+      - "C:/Program Files/Git/cmd/mt"
+      - "C:/Program Files/CMake/bin/mt.com"
+      - "C:/Program Files/CMake/bin/mt.exe"
+      - "C:/Program Files/CMake/bin/mt"
+      - "C:/Users/avery/AppData/Local/Programs/Python/Python312/Scripts/mt.com"
+      - "C:/Users/avery/AppData/Local/Programs/Python/Python312/Scripts/mt.exe"
+      - "C:/Users/avery/AppData/Local/Programs/Python/Python312/Scripts/mt"
+      - "C:/Users/avery/AppData/Local/Programs/Python/Python312/mt.com"
+      - "C:/Users/avery/AppData/Local/Programs/Python/Python312/mt.exe"
+      - "C:/Users/avery/AppData/Local/Programs/Python/Python312/mt"
+      - "C:/Users/avery/AppData/Local/Microsoft/WindowsApps/mt.com"
+      - "C:/Users/avery/AppData/Local/Microsoft/WindowsApps/mt.exe"
+      - "C:/Users/avery/AppData/Local/Microsoft/WindowsApps/mt"
+      - "C:/Program Files/Java/jdk-19/bin/mt.com"
+      - "C:/Program Files/Java/jdk-19/bin/mt.exe"
+      - "C:/Program Files/Java/jdk-19/bin/mt"
+      - "C:/Users/avery/AppData/Local/Programs/Microsoft VS Code/bin/mt.com"
+      - "C:/Users/avery/AppData/Local/Programs/Microsoft VS Code/bin/mt.exe"
+      - "C:/Users/avery/AppData/Local/Programs/Microsoft VS Code/bin/mt"
+      - "C:/Users/avery/AppData/Local/Programs/MiKTeX/miktex/bin/x64/mt.com"
+      - "C:/Users/avery/AppData/Local/Programs/MiKTeX/miktex/bin/x64/mt.exe"
+      - "C:/Users/avery/AppData/Local/Programs/MiKTeX/miktex/bin/x64/mt"
+      - "C:/Users/avery/AppData/Local/GitHubDesktop/bin/mt.com"
+      - "C:/Users/avery/AppData/Local/GitHubDesktop/bin/mt.exe"
+      - "C:/Users/avery/AppData/Local/GitHubDesktop/bin/mt"
+      - "C:/Users/avery/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/mt.com"
+      - "C:/Users/avery/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/mt.exe"
+      - "C:/Users/avery/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/mt"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "c:\\Users\\avery\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\avery\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Users\\avery\\Downloads\\SupplementMATLAB244\\bin"
+        - "C:\\Program Files\\HP\\HP One Agent"
+        - "C:\\Program Files\\Wolfram Research\\WolframScript\\"
+        - "C:\\Program Files\\PuTTY\\"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\avery\\AppData\\Local\\Programs\\Python\\Python312\\Scripts\\"
+        - "C:\\Users\\avery\\AppData\\Local\\Programs\\Python\\Python312\\"
+        - "C:\\Users\\avery\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files\\Java\\jdk-19\\bin"
+        - "C:\\Users\\avery\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\avery\\AppData\\Local\\Programs\\MiKTeX\\miktex\\bin\\x64\\"
+        - "C:\\Users\\avery\\AppData\\Local\\GitHubDesktop\\bin"
+        - "c:\\Users\\avery\\.vscode\\extensions\\ms-python.debugpy-2025.18.0-win32-x64\\bundled\\scripts\\noConfigScripts"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_AR"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lib"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/"
+      - "C:/Users/avery/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "C:/Users/avery/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Users/avery/Downloads/SupplementMATLAB244/bin/"
+      - "C:/Program Files/HP/HP One Agent/"
+      - "C:/Program Files/Wolfram Research/WolframScript/"
+      - "C:/Program Files/PuTTY/"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/avery/AppData/Local/Programs/Python/Python312/Scripts/"
+      - "C:/Users/avery/AppData/Local/Programs/Python/Python312/"
+      - "C:/Users/avery/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Program Files/Java/jdk-19/bin/"
+      - "C:/Users/avery/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/avery/AppData/Local/Programs/MiKTeX/miktex/bin/x64/"
+      - "C:/Users/avery/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Users/avery/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lib.com"
+    found: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lib.exe"
+    search_context:
+      ENV{PATH}:
+        - "c:\\Users\\avery\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\avery\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Users\\avery\\Downloads\\SupplementMATLAB244\\bin"
+        - "C:\\Program Files\\HP\\HP One Agent"
+        - "C:\\Program Files\\Wolfram Research\\WolframScript\\"
+        - "C:\\Program Files\\PuTTY\\"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\avery\\AppData\\Local\\Programs\\Python\\Python312\\Scripts\\"
+        - "C:\\Users\\avery\\AppData\\Local\\Programs\\Python\\Python312\\"
+        - "C:\\Users\\avery\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files\\Java\\jdk-19\\bin"
+        - "C:\\Users\\avery\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\avery\\AppData\\Local\\Programs\\MiKTeX\\miktex\\bin\\x64\\"
+        - "C:\\Users\\avery\\AppData\\Local\\GitHubDesktop\\bin"
+        - "c:\\Users\\avery\\.vscode\\extensions\\ms-python.debugpy-2025.18.0-win32-x64\\bundled\\scripts\\noConfigScripts"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "c:\\Users\\avery\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\avery\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Users\\avery\\Downloads\\SupplementMATLAB244\\bin"
+        - "C:\\Program Files\\HP\\HP One Agent"
+        - "C:\\Program Files\\Wolfram Research\\WolframScript\\"
+        - "C:\\Program Files\\PuTTY\\"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\avery\\AppData\\Local\\Programs\\Python\\Python312\\Scripts\\"
+        - "C:\\Users\\avery\\AppData\\Local\\Programs\\Python\\Python312\\"
+        - "C:\\Users\\avery\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files\\Java\\jdk-19\\bin"
+        - "C:\\Users\\avery\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\avery\\AppData\\Local\\Programs\\MiKTeX\\miktex\\bin\\x64\\"
+        - "C:\\Users\\avery\\AppData\\Local\\GitHubDesktop\\bin"
+        - "c:\\Users\\avery\\.vscode\\extensions\\ms-python.debugpy-2025.18.0-win32-x64\\bundled\\scripts\\noConfigScripts"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 17.14.14+a129329f1 for .NET Framework
+      Build started 1/17/2026 4:51:20 PM.
+      
+      Project "C:\\Users\\avery\\Radar Signal Tracking Project\\cpp\\build\\CMakeFiles\\4.2.1\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+        Creating directory "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        Touching "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> C:\\Users\\avery\\Radar Signal Tracking Project\\cpp\\build\\CMakeFiles\\4.2.1\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      Done Building Project "C:\\Users\\avery\\Radar Signal Tracking Project\\cpp\\build\\CMakeFiles\\4.2.1\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:00.66
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/Users/avery/Radar Signal Tracking Project/cpp/build/CMakeFiles/4.2.1/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:104 (__resolve_linker_path)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lld-link"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/"
+      - "C:/Users/avery/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "C:/Users/avery/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Users/avery/Downloads/SupplementMATLAB244/bin/"
+      - "C:/Program Files/HP/HP One Agent/"
+      - "C:/Program Files/Wolfram Research/WolframScript/"
+      - "C:/Program Files/PuTTY/"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/avery/AppData/Local/Programs/Python/Python312/Scripts/"
+      - "C:/Users/avery/AppData/Local/Programs/Python/Python312/"
+      - "C:/Users/avery/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Program Files/Java/jdk-19/bin/"
+      - "C:/Users/avery/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/avery/AppData/Local/Programs/MiKTeX/miktex/bin/x64/"
+      - "C:/Users/avery/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Users/avery/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lld-link.com"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lld-link.exe"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lld-link"
+      - "C:/Users/avery/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/lld-link.com"
+      - "C:/Users/avery/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/lld-link.exe"
+      - "C:/Users/avery/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/lld-link"
+      - "C:/Users/avery/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/lld-link.com"
+      - "C:/Users/avery/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/lld-link.exe"
+      - "C:/Users/avery/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/lld-link"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/lld-link.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/lld-link.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/lld-link"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/lld-link.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/lld-link.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/lld-link"
+      - "C:/Windows/System32/lld-link.com"
+      - "C:/Windows/System32/lld-link.exe"
+      - "C:/Windows/System32/lld-link"
+      - "C:/Windows/lld-link.com"
+      - "C:/Windows/lld-link.exe"
+      - "C:/Windows/lld-link"
+      - "C:/Windows/System32/wbem/lld-link.com"
+      - "C:/Windows/System32/wbem/lld-link.exe"
+      - "C:/Windows/System32/wbem/lld-link"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link"
+      - "C:/Windows/System32/OpenSSH/lld-link.com"
+      - "C:/Windows/System32/OpenSSH/lld-link.exe"
+      - "C:/Windows/System32/OpenSSH/lld-link"
+      - "C:/Users/avery/Downloads/SupplementMATLAB244/bin/lld-link.com"
+      - "C:/Users/avery/Downloads/SupplementMATLAB244/bin/lld-link.exe"
+      - "C:/Users/avery/Downloads/SupplementMATLAB244/bin/lld-link"
+      - "C:/Program Files/HP/HP One Agent/lld-link.com"
+      - "C:/Program Files/HP/HP One Agent/lld-link.exe"
+      - "C:/Program Files/HP/HP One Agent/lld-link"
+      - "C:/Program Files/Wolfram Research/WolframScript/lld-link.com"
+      - "C:/Program Files/Wolfram Research/WolframScript/lld-link.exe"
+      - "C:/Program Files/Wolfram Research/WolframScript/lld-link"
+      - "C:/Program Files/PuTTY/lld-link.com"
+      - "C:/Program Files/PuTTY/lld-link.exe"
+      - "C:/Program Files/PuTTY/lld-link"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/lld-link.com"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/lld-link.exe"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/lld-link"
+      - "C:/Program Files/dotnet/lld-link.com"
+      - "C:/Program Files/dotnet/lld-link.exe"
+      - "C:/Program Files/dotnet/lld-link"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link"
+      - "C:/Program Files/Git/cmd/lld-link.com"
+      - "C:/Program Files/Git/cmd/lld-link.exe"
+      - "C:/Program Files/Git/cmd/lld-link"
+      - "C:/Program Files/CMake/bin/lld-link.com"
+      - "C:/Program Files/CMake/bin/lld-link.exe"
+      - "C:/Program Files/CMake/bin/lld-link"
+      - "C:/Users/avery/AppData/Local/Programs/Python/Python312/Scripts/lld-link.com"
+      - "C:/Users/avery/AppData/Local/Programs/Python/Python312/Scripts/lld-link.exe"
+      - "C:/Users/avery/AppData/Local/Programs/Python/Python312/Scripts/lld-link"
+      - "C:/Users/avery/AppData/Local/Programs/Python/Python312/lld-link.com"
+      - "C:/Users/avery/AppData/Local/Programs/Python/Python312/lld-link.exe"
+      - "C:/Users/avery/AppData/Local/Programs/Python/Python312/lld-link"
+      - "C:/Users/avery/AppData/Local/Microsoft/WindowsApps/lld-link.com"
+      - "C:/Users/avery/AppData/Local/Microsoft/WindowsApps/lld-link.exe"
+      - "C:/Users/avery/AppData/Local/Microsoft/WindowsApps/lld-link"
+      - "C:/Program Files/Java/jdk-19/bin/lld-link.com"
+      - "C:/Program Files/Java/jdk-19/bin/lld-link.exe"
+      - "C:/Program Files/Java/jdk-19/bin/lld-link"
+      - "C:/Users/avery/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.com"
+      - "C:/Users/avery/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.exe"
+      - "C:/Users/avery/AppData/Local/Programs/Microsoft VS Code/bin/lld-link"
+      - "C:/Users/avery/AppData/Local/Programs/MiKTeX/miktex/bin/x64/lld-link.com"
+      - "C:/Users/avery/AppData/Local/Programs/MiKTeX/miktex/bin/x64/lld-link.exe"
+      - "C:/Users/avery/AppData/Local/Programs/MiKTeX/miktex/bin/x64/lld-link"
+      - "C:/Users/avery/AppData/Local/GitHubDesktop/bin/lld-link.com"
+      - "C:/Users/avery/AppData/Local/GitHubDesktop/bin/lld-link.exe"
+      - "C:/Users/avery/AppData/Local/GitHubDesktop/bin/lld-link"
+      - "C:/Users/avery/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/lld-link.com"
+      - "C:/Users/avery/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/lld-link.exe"
+      - "C:/Users/avery/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/lld-link"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "c:\\Users\\avery\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\avery\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Users\\avery\\Downloads\\SupplementMATLAB244\\bin"
+        - "C:\\Program Files\\HP\\HP One Agent"
+        - "C:\\Program Files\\Wolfram Research\\WolframScript\\"
+        - "C:\\Program Files\\PuTTY\\"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\avery\\AppData\\Local\\Programs\\Python\\Python312\\Scripts\\"
+        - "C:\\Users\\avery\\AppData\\Local\\Programs\\Python\\Python312\\"
+        - "C:\\Users\\avery\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files\\Java\\jdk-19\\bin"
+        - "C:\\Users\\avery\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\avery\\AppData\\Local\\Programs\\MiKTeX\\miktex\\bin\\x64\\"
+        - "C:\\Users\\avery\\AppData\\Local\\GitHubDesktop\\bin"
+        - "c:\\Users\\avery\\.vscode\\extensions\\ms-python.debugpy-2025.18.0-win32-x64\\bundled\\scripts\\noConfigScripts"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineRCCompiler.cmake:40 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/Platform/Windows-MSVC.cmake:580 (enable_language)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/Platform/Windows-MSVC.cmake:553 (__windows_compiler_msvc_enable_rc)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/Platform/Windows-MSVC-C.cmake:5 (__windows_compiler_msvc)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeCInformation.cmake:48 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_RC_COMPILER"
+    description: "RC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "rc"
+    candidate_directories:
+      - "C:/Users/avery/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "C:/Users/avery/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Users/avery/Downloads/SupplementMATLAB244/bin/"
+      - "C:/Program Files/HP/HP One Agent/"
+      - "C:/Program Files/Wolfram Research/WolframScript/"
+      - "C:/Program Files/PuTTY/"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/avery/AppData/Local/Programs/Python/Python312/Scripts/"
+      - "C:/Users/avery/AppData/Local/Programs/Python/Python312/"
+      - "C:/Users/avery/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Program Files/Java/jdk-19/bin/"
+      - "C:/Users/avery/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/avery/AppData/Local/Programs/MiKTeX/miktex/bin/x64/"
+      - "C:/Users/avery/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Users/avery/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/sbin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/sbin/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/CMake/sbin/"
+      - "C:/Program Files/CMake/"
+      - "C:/Program Files (x86)/tracker_cpp/bin/"
+      - "C:/Program Files (x86)/tracker_cpp/sbin/"
+      - "C:/Program Files (x86)/tracker_cpp/"
+    searched_directories:
+      - "C:/Users/avery/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/rc.com"
+      - "C:/Users/avery/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/rc.exe"
+      - "C:/Users/avery/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/rc"
+      - "C:/Users/avery/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/rc.com"
+      - "C:/Users/avery/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/rc.exe"
+      - "C:/Users/avery/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/rc"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/rc.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/rc.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/rc"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/rc.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/rc.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/rc"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/rc.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/rc.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/rc"
+      - "C:/Windows/System32/rc.com"
+      - "C:/Windows/System32/rc.exe"
+      - "C:/Windows/System32/rc"
+      - "C:/Windows/rc.com"
+      - "C:/Windows/rc.exe"
+      - "C:/Windows/rc"
+      - "C:/Windows/System32/wbem/rc.com"
+      - "C:/Windows/System32/wbem/rc.exe"
+      - "C:/Windows/System32/wbem/rc"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc"
+      - "C:/Windows/System32/OpenSSH/rc.com"
+      - "C:/Windows/System32/OpenSSH/rc.exe"
+      - "C:/Windows/System32/OpenSSH/rc"
+      - "C:/Users/avery/Downloads/SupplementMATLAB244/bin/rc.com"
+      - "C:/Users/avery/Downloads/SupplementMATLAB244/bin/rc.exe"
+      - "C:/Users/avery/Downloads/SupplementMATLAB244/bin/rc"
+      - "C:/Program Files/HP/HP One Agent/rc.com"
+      - "C:/Program Files/HP/HP One Agent/rc.exe"
+      - "C:/Program Files/HP/HP One Agent/rc"
+      - "C:/Program Files/Wolfram Research/WolframScript/rc.com"
+      - "C:/Program Files/Wolfram Research/WolframScript/rc.exe"
+      - "C:/Program Files/Wolfram Research/WolframScript/rc"
+      - "C:/Program Files/PuTTY/rc.com"
+      - "C:/Program Files/PuTTY/rc.exe"
+      - "C:/Program Files/PuTTY/rc"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/rc.com"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/rc.exe"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/rc"
+      - "C:/Program Files/dotnet/rc.com"
+      - "C:/Program Files/dotnet/rc.exe"
+      - "C:/Program Files/dotnet/rc"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/rc.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/rc.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/rc"
+      - "C:/Program Files/Git/cmd/rc.com"
+      - "C:/Program Files/Git/cmd/rc.exe"
+      - "C:/Program Files/Git/cmd/rc"
+      - "C:/Program Files/CMake/bin/rc.com"
+      - "C:/Program Files/CMake/bin/rc.exe"
+      - "C:/Program Files/CMake/bin/rc"
+      - "C:/Users/avery/AppData/Local/Programs/Python/Python312/Scripts/rc.com"
+      - "C:/Users/avery/AppData/Local/Programs/Python/Python312/Scripts/rc.exe"
+      - "C:/Users/avery/AppData/Local/Programs/Python/Python312/Scripts/rc"
+      - "C:/Users/avery/AppData/Local/Programs/Python/Python312/rc.com"
+      - "C:/Users/avery/AppData/Local/Programs/Python/Python312/rc.exe"
+      - "C:/Users/avery/AppData/Local/Programs/Python/Python312/rc"
+      - "C:/Users/avery/AppData/Local/Microsoft/WindowsApps/rc.com"
+      - "C:/Users/avery/AppData/Local/Microsoft/WindowsApps/rc.exe"
+      - "C:/Users/avery/AppData/Local/Microsoft/WindowsApps/rc"
+      - "C:/Program Files/Java/jdk-19/bin/rc.com"
+      - "C:/Program Files/Java/jdk-19/bin/rc.exe"
+      - "C:/Program Files/Java/jdk-19/bin/rc"
+      - "C:/Users/avery/AppData/Local/Programs/Microsoft VS Code/bin/rc.com"
+      - "C:/Users/avery/AppData/Local/Programs/Microsoft VS Code/bin/rc.exe"
+      - "C:/Users/avery/AppData/Local/Programs/Microsoft VS Code/bin/rc"
+      - "C:/Users/avery/AppData/Local/Programs/MiKTeX/miktex/bin/x64/rc.com"
+      - "C:/Users/avery/AppData/Local/Programs/MiKTeX/miktex/bin/x64/rc.exe"
+      - "C:/Users/avery/AppData/Local/Programs/MiKTeX/miktex/bin/x64/rc"
+      - "C:/Users/avery/AppData/Local/GitHubDesktop/bin/rc.com"
+      - "C:/Users/avery/AppData/Local/GitHubDesktop/bin/rc.exe"
+      - "C:/Users/avery/AppData/Local/GitHubDesktop/bin/rc"
+      - "C:/Users/avery/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/rc.com"
+      - "C:/Users/avery/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/rc.exe"
+      - "C:/Users/avery/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/rc"
+      - "C:/Program Files/bin/rc.com"
+      - "C:/Program Files/bin/rc.exe"
+      - "C:/Program Files/bin/rc"
+      - "C:/Program Files/sbin/rc.com"
+      - "C:/Program Files/sbin/rc.exe"
+      - "C:/Program Files/sbin/rc"
+      - "C:/Program Files/rc.com"
+      - "C:/Program Files/rc.exe"
+      - "C:/Program Files/rc"
+      - "C:/Program Files (x86)/bin/rc.com"
+      - "C:/Program Files (x86)/bin/rc.exe"
+      - "C:/Program Files (x86)/bin/rc"
+      - "C:/Program Files (x86)/sbin/rc.com"
+      - "C:/Program Files (x86)/sbin/rc.exe"
+      - "C:/Program Files (x86)/sbin/rc"
+      - "C:/Program Files (x86)/rc.com"
+      - "C:/Program Files (x86)/rc.exe"
+      - "C:/Program Files (x86)/rc"
+      - "C:/Program Files/CMake/bin/rc.com"
+      - "C:/Program Files/CMake/bin/rc.exe"
+      - "C:/Program Files/CMake/bin/rc"
+      - "C:/Program Files/CMake/sbin/rc.com"
+      - "C:/Program Files/CMake/sbin/rc.exe"
+      - "C:/Program Files/CMake/sbin/rc"
+      - "C:/Program Files/CMake/rc.com"
+      - "C:/Program Files/CMake/rc.exe"
+      - "C:/Program Files/CMake/rc"
+      - "C:/Program Files (x86)/tracker_cpp/bin/rc.com"
+      - "C:/Program Files (x86)/tracker_cpp/bin/rc.exe"
+      - "C:/Program Files (x86)/tracker_cpp/bin/rc"
+      - "C:/Program Files (x86)/tracker_cpp/sbin/rc.com"
+      - "C:/Program Files (x86)/tracker_cpp/sbin/rc.exe"
+      - "C:/Program Files (x86)/tracker_cpp/sbin/rc"
+      - "C:/Program Files (x86)/tracker_cpp/rc.com"
+      - "C:/Program Files (x86)/tracker_cpp/rc.exe"
+      - "C:/Program Files (x86)/tracker_cpp/rc"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "c:\\Users\\avery\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\avery\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Users\\avery\\Downloads\\SupplementMATLAB244\\bin"
+        - "C:\\Program Files\\HP\\HP One Agent"
+        - "C:\\Program Files\\Wolfram Research\\WolframScript\\"
+        - "C:\\Program Files\\PuTTY\\"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\avery\\AppData\\Local\\Programs\\Python\\Python312\\Scripts\\"
+        - "C:\\Users\\avery\\AppData\\Local\\Programs\\Python\\Python312\\"
+        - "C:\\Users\\avery\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files\\Java\\jdk-19\\bin"
+        - "C:\\Users\\avery\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\avery\\AppData\\Local\\Programs\\MiKTeX\\miktex\\bin\\x64\\"
+        - "C:\\Users\\avery\\AppData\\Local\\GitHubDesktop\\bin"
+        - "c:\\Users\\avery\\.vscode\\extensions\\ms-python.debugpy-2025.18.0-win32-x64\\bundled\\scripts\\noConfigScripts"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/tracker_cpp"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/tracker_cpp"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/avery/Radar Signal Tracking Project/cpp/build/CMakeFiles/CMakeScratch/TryCompile-20ow28"
+      binary: "C:/Users/avery/Radar Signal Tracking Project/cpp/build/CMakeFiles/CMakeScratch/TryCompile-20ow28"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/avery/Radar Signal Tracking Project/cpp/build/CMakeFiles/CMakeScratch/TryCompile-20ow28'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_6357f.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.14.14+a129329f1 for .NET Framework
+        Build started 1/17/2026 4:51:21 PM.
+        
+        Project "C:\\Users\\avery\\Radar Signal Tracking Project\\cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-20ow28\\cmTC_6357f.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\avery\\Radar Signal Tracking Project\\cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-20ow28\\Debug\\".
+          Creating directory "cmTC_6357f.dir\\Debug\\cmTC_6357f.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_6357f.dir\\Debug\\cmTC_6357f.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_6357f.dir\\Debug\\cmTC_6357f.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_6357f.dir\\Debug\\\\" /Fd"cmTC_6357f.dir\\Debug\\vc143.pdb" /external:W1 /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCCompilerABI.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35213 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_6357f.dir\\Debug\\\\" /Fd"cmTC_6357f.dir\\Debug\\vc143.pdb" /external:W1 /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCCompilerABI.c"
+          CMakeCCompilerABI.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\avery\\Radar Signal Tracking Project\\cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-20ow28\\Debug\\cmTC_6357f.exe" /INCREMENTAL /ILK:"cmTC_6357f.dir\\Debug\\cmTC_6357f.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/avery/Radar Signal Tracking Project/cpp/build/CMakeFiles/CMakeScratch/TryCompile-20ow28/Debug/cmTC_6357f.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/avery/Radar Signal Tracking Project/cpp/build/CMakeFiles/CMakeScratch/TryCompile-20ow28/Debug/cmTC_6357f.lib" /MACHINE:X64  /machine:x64 cmTC_6357f.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_6357f.vcxproj -> C:\\Users\\avery\\Radar Signal Tracking Project\\cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-20ow28\\Debug\\cmTC_6357f.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_6357f.dir\\Debug\\cmTC_6357f.tlog\\unsuccessfulbuild".
+          Touching "cmTC_6357f.dir\\Debug\\cmTC_6357f.tlog\\cmTC_6357f.lastbuildstate".
+        Done Building Project "C:\\Users\\avery\\Radar Signal Tracking Project\\cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-20ow28\\cmTC_6357f.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.58
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'C': C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/Internal/CMakeDetermineLinkerId.cmake:38 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the C compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.44.35213.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/avery/Radar Signal Tracking Project/cpp/build/CMakeFiles/CMakeScratch/TryCompile-jyx9rw"
+      binary: "C:/Users/avery/Radar Signal Tracking Project/cpp/build/CMakeFiles/CMakeScratch/TryCompile-jyx9rw"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/avery/Radar Signal Tracking Project/cpp/build/CMakeFiles/CMakeScratch/TryCompile-jyx9rw'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_8dc3a.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.14.14+a129329f1 for .NET Framework
+        Build started 1/17/2026 4:51:22 PM.
+        
+        Project "C:\\Users\\avery\\Radar Signal Tracking Project\\cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jyx9rw\\cmTC_8dc3a.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\avery\\Radar Signal Tracking Project\\cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jyx9rw\\Debug\\".
+          Creating directory "cmTC_8dc3a.dir\\Debug\\cmTC_8dc3a.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_8dc3a.dir\\Debug\\cmTC_8dc3a.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_8dc3a.dir\\Debug\\cmTC_8dc3a.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_8dc3a.dir\\Debug\\\\" /Fd"cmTC_8dc3a.dir\\Debug\\vc143.pdb" /external:W1 /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35213 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_8dc3a.dir\\Debug\\\\" /Fd"cmTC_8dc3a.dir\\Debug\\vc143.pdb" /external:W1 /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\avery\\Radar Signal Tracking Project\\cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jyx9rw\\Debug\\cmTC_8dc3a.exe" /INCREMENTAL /ILK:"cmTC_8dc3a.dir\\Debug\\cmTC_8dc3a.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/avery/Radar Signal Tracking Project/cpp/build/CMakeFiles/CMakeScratch/TryCompile-jyx9rw/Debug/cmTC_8dc3a.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/avery/Radar Signal Tracking Project/cpp/build/CMakeFiles/CMakeScratch/TryCompile-jyx9rw/Debug/cmTC_8dc3a.lib" /MACHINE:X64  /machine:x64 cmTC_8dc3a.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_8dc3a.vcxproj -> C:\\Users\\avery\\Radar Signal Tracking Project\\cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jyx9rw\\Debug\\cmTC_8dc3a.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_8dc3a.dir\\Debug\\cmTC_8dc3a.tlog\\unsuccessfulbuild".
+          Touching "cmTC_8dc3a.dir\\Debug\\cmTC_8dc3a.tlog\\cmTC_8dc3a.lastbuildstate".
+        Done Building Project "C:\\Users\\avery\\Radar Signal Tracking Project\\cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jyx9rw\\cmTC_8dc3a.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.59
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'CXX': C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/Internal/CMakeDetermineLinkerId.cmake:38 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the CXX compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.44.35213.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/FindPythonInterp.cmake:144 (find_program)"
+      - "C:/Users/avery/AppData/Local/Programs/Python/Python312/share/cmake/pybind11/FindPythonLibsNew.cmake:114 (find_package)"
+      - "C:/Users/avery/AppData/Local/Programs/Python/Python312/share/cmake/pybind11/pybind11Tools.cmake:44 (find_package)"
+      - "C:/Users/avery/AppData/Local/Programs/Python/Python312/share/cmake/pybind11/pybind11Common.cmake:226 (include)"
+      - "C:/Users/avery/AppData/Local/Programs/Python/Python312/share/cmake/pybind11/pybind11Config.cmake:257 (include)"
+      - "CMakeLists.txt:10 (find_package)"
+    mode: "program"
+    variable: "PYTHON_EXECUTABLE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "python3.8"
+      - "python3"
+    candidate_directories:
+      - "C:/Users/avery/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "C:/Users/avery/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Users/avery/Downloads/SupplementMATLAB244/bin/"
+      - "C:/Program Files/HP/HP One Agent/"
+      - "C:/Program Files/Wolfram Research/WolframScript/"
+      - "C:/Program Files/PuTTY/"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/avery/AppData/Local/Programs/Python/Python312/Scripts/"
+      - "C:/Users/avery/AppData/Local/Programs/Python/Python312/"
+      - "C:/Users/avery/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Program Files/Java/jdk-19/bin/"
+      - "C:/Users/avery/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/avery/AppData/Local/Programs/MiKTeX/miktex/bin/x64/"
+      - "C:/Users/avery/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Users/avery/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/sbin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/sbin/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/CMake/sbin/"
+      - "C:/Program Files/CMake/"
+      - "C:/Program Files (x86)/tracker_cpp/bin/"
+      - "C:/Program Files (x86)/tracker_cpp/sbin/"
+      - "C:/Program Files (x86)/tracker_cpp/"
+    searched_directories:
+      - "C:/Users/avery/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/python3.8.com"
+      - "C:/Users/avery/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/python3.8.exe"
+      - "C:/Users/avery/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/python3.8"
+      - "C:/Users/avery/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/python3.8.com"
+      - "C:/Users/avery/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/python3.8.exe"
+      - "C:/Users/avery/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/python3.8"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/python3.8.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/python3.8.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/python3.8"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/python3.8.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/python3.8.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/python3.8"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/python3.8.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/python3.8.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/python3.8"
+      - "C:/Windows/System32/python3.8.com"
+      - "C:/Windows/System32/python3.8.exe"
+      - "C:/Windows/System32/python3.8"
+      - "C:/Windows/python3.8.com"
+      - "C:/Windows/python3.8.exe"
+      - "C:/Windows/python3.8"
+      - "C:/Windows/System32/wbem/python3.8.com"
+      - "C:/Windows/System32/wbem/python3.8.exe"
+      - "C:/Windows/System32/wbem/python3.8"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/python3.8.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/python3.8.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/python3.8"
+      - "C:/Windows/System32/OpenSSH/python3.8.com"
+      - "C:/Windows/System32/OpenSSH/python3.8.exe"
+      - "C:/Windows/System32/OpenSSH/python3.8"
+      - "C:/Users/avery/Downloads/SupplementMATLAB244/bin/python3.8.com"
+      - "C:/Users/avery/Downloads/SupplementMATLAB244/bin/python3.8.exe"
+      - "C:/Users/avery/Downloads/SupplementMATLAB244/bin/python3.8"
+      - "C:/Program Files/HP/HP One Agent/python3.8.com"
+      - "C:/Program Files/HP/HP One Agent/python3.8.exe"
+      - "C:/Program Files/HP/HP One Agent/python3.8"
+      - "C:/Program Files/Wolfram Research/WolframScript/python3.8.com"
+      - "C:/Program Files/Wolfram Research/WolframScript/python3.8.exe"
+      - "C:/Program Files/Wolfram Research/WolframScript/python3.8"
+      - "C:/Program Files/PuTTY/python3.8.com"
+      - "C:/Program Files/PuTTY/python3.8.exe"
+      - "C:/Program Files/PuTTY/python3.8"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/python3.8.com"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/python3.8.exe"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/python3.8"
+      - "C:/Program Files/dotnet/python3.8.com"
+      - "C:/Program Files/dotnet/python3.8.exe"
+      - "C:/Program Files/dotnet/python3.8"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/python3.8.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/python3.8.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/python3.8"
+      - "C:/Program Files/Git/cmd/python3.8.com"
+      - "C:/Program Files/Git/cmd/python3.8.exe"
+      - "C:/Program Files/Git/cmd/python3.8"
+      - "C:/Program Files/CMake/bin/python3.8.com"
+      - "C:/Program Files/CMake/bin/python3.8.exe"
+      - "C:/Program Files/CMake/bin/python3.8"
+      - "C:/Users/avery/AppData/Local/Programs/Python/Python312/Scripts/python3.8.com"
+      - "C:/Users/avery/AppData/Local/Programs/Python/Python312/Scripts/python3.8.exe"
+      - "C:/Users/avery/AppData/Local/Programs/Python/Python312/Scripts/python3.8"
+      - "C:/Users/avery/AppData/Local/Programs/Python/Python312/python3.8.com"
+      - "C:/Users/avery/AppData/Local/Programs/Python/Python312/python3.8.exe"
+      - "C:/Users/avery/AppData/Local/Programs/Python/Python312/python3.8"
+      - "C:/Users/avery/AppData/Local/Microsoft/WindowsApps/python3.8.com"
+      - "C:/Users/avery/AppData/Local/Microsoft/WindowsApps/python3.8.exe"
+      - "C:/Users/avery/AppData/Local/Microsoft/WindowsApps/python3.8"
+      - "C:/Program Files/Java/jdk-19/bin/python3.8.com"
+      - "C:/Program Files/Java/jdk-19/bin/python3.8.exe"
+      - "C:/Program Files/Java/jdk-19/bin/python3.8"
+      - "C:/Users/avery/AppData/Local/Programs/Microsoft VS Code/bin/python3.8.com"
+      - "C:/Users/avery/AppData/Local/Programs/Microsoft VS Code/bin/python3.8.exe"
+      - "C:/Users/avery/AppData/Local/Programs/Microsoft VS Code/bin/python3.8"
+      - "C:/Users/avery/AppData/Local/Programs/MiKTeX/miktex/bin/x64/python3.8.com"
+      - "C:/Users/avery/AppData/Local/Programs/MiKTeX/miktex/bin/x64/python3.8.exe"
+      - "C:/Users/avery/AppData/Local/Programs/MiKTeX/miktex/bin/x64/python3.8"
+      - "C:/Users/avery/AppData/Local/GitHubDesktop/bin/python3.8.com"
+      - "C:/Users/avery/AppData/Local/GitHubDesktop/bin/python3.8.exe"
+      - "C:/Users/avery/AppData/Local/GitHubDesktop/bin/python3.8"
+      - "C:/Users/avery/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/python3.8.com"
+      - "C:/Users/avery/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/python3.8.exe"
+      - "C:/Users/avery/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/python3.8"
+      - "C:/Program Files/bin/python3.8.com"
+      - "C:/Program Files/bin/python3.8.exe"
+      - "C:/Program Files/bin/python3.8"
+      - "C:/Program Files/sbin/python3.8.com"
+      - "C:/Program Files/sbin/python3.8.exe"
+      - "C:/Program Files/sbin/python3.8"
+      - "C:/Program Files/python3.8.com"
+      - "C:/Program Files/python3.8.exe"
+      - "C:/Program Files/python3.8"
+      - "C:/Program Files (x86)/bin/python3.8.com"
+      - "C:/Program Files (x86)/bin/python3.8.exe"
+      - "C:/Program Files (x86)/bin/python3.8"
+      - "C:/Program Files (x86)/sbin/python3.8.com"
+      - "C:/Program Files (x86)/sbin/python3.8.exe"
+      - "C:/Program Files (x86)/sbin/python3.8"
+      - "C:/Program Files (x86)/python3.8.com"
+      - "C:/Program Files (x86)/python3.8.exe"
+      - "C:/Program Files (x86)/python3.8"
+      - "C:/Program Files/CMake/bin/python3.8.com"
+      - "C:/Program Files/CMake/bin/python3.8.exe"
+      - "C:/Program Files/CMake/bin/python3.8"
+      - "C:/Program Files/CMake/sbin/python3.8.com"
+      - "C:/Program Files/CMake/sbin/python3.8.exe"
+      - "C:/Program Files/CMake/sbin/python3.8"
+      - "C:/Program Files/CMake/python3.8.com"
+      - "C:/Program Files/CMake/python3.8.exe"
+      - "C:/Program Files/CMake/python3.8"
+      - "C:/Program Files (x86)/tracker_cpp/bin/python3.8.com"
+      - "C:/Program Files (x86)/tracker_cpp/bin/python3.8.exe"
+      - "C:/Program Files (x86)/tracker_cpp/bin/python3.8"
+      - "C:/Program Files (x86)/tracker_cpp/sbin/python3.8.com"
+      - "C:/Program Files (x86)/tracker_cpp/sbin/python3.8.exe"
+      - "C:/Program Files (x86)/tracker_cpp/sbin/python3.8"
+      - "C:/Program Files (x86)/tracker_cpp/python3.8.com"
+      - "C:/Program Files (x86)/tracker_cpp/python3.8.exe"
+      - "C:/Program Files (x86)/tracker_cpp/python3.8"
+      - "C:/Users/avery/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/python3.com"
+      - "C:/Users/avery/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/python3.exe"
+      - "C:/Users/avery/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/python3"
+      - "C:/Users/avery/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/python3.com"
+      - "C:/Users/avery/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/python3.exe"
+      - "C:/Users/avery/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/python3"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/python3.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/python3.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/python3"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/python3.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/python3.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/python3"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/python3.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/python3.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/python3"
+      - "C:/Windows/System32/python3.com"
+      - "C:/Windows/System32/python3.exe"
+      - "C:/Windows/System32/python3"
+      - "C:/Windows/python3.com"
+      - "C:/Windows/python3.exe"
+      - "C:/Windows/python3"
+      - "C:/Windows/System32/wbem/python3.com"
+      - "C:/Windows/System32/wbem/python3.exe"
+      - "C:/Windows/System32/wbem/python3"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/python3.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/python3.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/python3"
+      - "C:/Windows/System32/OpenSSH/python3.com"
+      - "C:/Windows/System32/OpenSSH/python3.exe"
+      - "C:/Windows/System32/OpenSSH/python3"
+      - "C:/Users/avery/Downloads/SupplementMATLAB244/bin/python3.com"
+      - "C:/Users/avery/Downloads/SupplementMATLAB244/bin/python3.exe"
+      - "C:/Users/avery/Downloads/SupplementMATLAB244/bin/python3"
+      - "C:/Program Files/HP/HP One Agent/python3.com"
+      - "C:/Program Files/HP/HP One Agent/python3.exe"
+      - "C:/Program Files/HP/HP One Agent/python3"
+      - "C:/Program Files/Wolfram Research/WolframScript/python3.com"
+      - "C:/Program Files/Wolfram Research/WolframScript/python3.exe"
+      - "C:/Program Files/Wolfram Research/WolframScript/python3"
+      - "C:/Program Files/PuTTY/python3.com"
+      - "C:/Program Files/PuTTY/python3.exe"
+      - "C:/Program Files/PuTTY/python3"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/python3.com"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/python3.exe"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/python3"
+      - "C:/Program Files/dotnet/python3.com"
+      - "C:/Program Files/dotnet/python3.exe"
+      - "C:/Program Files/dotnet/python3"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/python3.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/python3.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/python3"
+      - "C:/Program Files/Git/cmd/python3.com"
+      - "C:/Program Files/Git/cmd/python3.exe"
+      - "C:/Program Files/Git/cmd/python3"
+      - "C:/Program Files/CMake/bin/python3.com"
+      - "C:/Program Files/CMake/bin/python3.exe"
+      - "C:/Program Files/CMake/bin/python3"
+      - "C:/Users/avery/AppData/Local/Programs/Python/Python312/Scripts/python3.com"
+      - "C:/Users/avery/AppData/Local/Programs/Python/Python312/Scripts/python3.exe"
+      - "C:/Users/avery/AppData/Local/Programs/Python/Python312/Scripts/python3"
+      - "C:/Users/avery/AppData/Local/Programs/Python/Python312/python3.com"
+      - "C:/Users/avery/AppData/Local/Programs/Python/Python312/python3.exe"
+      - "C:/Users/avery/AppData/Local/Programs/Python/Python312/python3"
+      - "C:/Users/avery/AppData/Local/Microsoft/WindowsApps/python3.com"
+      - "C:/Users/avery/AppData/Local/Microsoft/WindowsApps/python3.exe"
+      - "C:/Users/avery/AppData/Local/Microsoft/WindowsApps/python3"
+      - "C:/Program Files/Java/jdk-19/bin/python3.com"
+      - "C:/Program Files/Java/jdk-19/bin/python3.exe"
+      - "C:/Program Files/Java/jdk-19/bin/python3"
+      - "C:/Users/avery/AppData/Local/Programs/Microsoft VS Code/bin/python3.com"
+      - "C:/Users/avery/AppData/Local/Programs/Microsoft VS Code/bin/python3.exe"
+      - "C:/Users/avery/AppData/Local/Programs/Microsoft VS Code/bin/python3"
+      - "C:/Users/avery/AppData/Local/Programs/MiKTeX/miktex/bin/x64/python3.com"
+      - "C:/Users/avery/AppData/Local/Programs/MiKTeX/miktex/bin/x64/python3.exe"
+      - "C:/Users/avery/AppData/Local/Programs/MiKTeX/miktex/bin/x64/python3"
+      - "C:/Users/avery/AppData/Local/GitHubDesktop/bin/python3.com"
+      - "C:/Users/avery/AppData/Local/GitHubDesktop/bin/python3.exe"
+      - "C:/Users/avery/AppData/Local/GitHubDesktop/bin/python3"
+      - "C:/Users/avery/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/python3.com"
+      - "C:/Users/avery/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/python3.exe"
+      - "C:/Users/avery/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/python3"
+      - "C:/Program Files/bin/python3.com"
+      - "C:/Program Files/bin/python3.exe"
+      - "C:/Program Files/bin/python3"
+      - "C:/Program Files/sbin/python3.com"
+      - "C:/Program Files/sbin/python3.exe"
+      - "C:/Program Files/sbin/python3"
+      - "C:/Program Files/python3.com"
+      - "C:/Program Files/python3.exe"
+      - "C:/Program Files/python3"
+      - "C:/Program Files (x86)/bin/python3.com"
+      - "C:/Program Files (x86)/bin/python3.exe"
+      - "C:/Program Files (x86)/bin/python3"
+      - "C:/Program Files (x86)/sbin/python3.com"
+      - "C:/Program Files (x86)/sbin/python3.exe"
+      - "C:/Program Files (x86)/sbin/python3"
+      - "C:/Program Files (x86)/python3.com"
+      - "C:/Program Files (x86)/python3.exe"
+      - "C:/Program Files (x86)/python3"
+      - "C:/Program Files/CMake/bin/python3.com"
+      - "C:/Program Files/CMake/bin/python3.exe"
+      - "C:/Program Files/CMake/bin/python3"
+      - "C:/Program Files/CMake/sbin/python3.com"
+      - "C:/Program Files/CMake/sbin/python3.exe"
+      - "C:/Program Files/CMake/sbin/python3"
+      - "C:/Program Files/CMake/python3.com"
+      - "C:/Program Files/CMake/python3.exe"
+      - "C:/Program Files/CMake/python3"
+      - "C:/Program Files (x86)/tracker_cpp/bin/python3.com"
+      - "C:/Program Files (x86)/tracker_cpp/bin/python3.exe"
+      - "C:/Program Files (x86)/tracker_cpp/bin/python3"
+      - "C:/Program Files (x86)/tracker_cpp/sbin/python3.com"
+      - "C:/Program Files (x86)/tracker_cpp/sbin/python3.exe"
+      - "C:/Program Files (x86)/tracker_cpp/sbin/python3"
+      - "C:/Program Files (x86)/tracker_cpp/python3.com"
+      - "C:/Program Files (x86)/tracker_cpp/python3.exe"
+      - "C:/Program Files (x86)/tracker_cpp/python3"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "c:\\Users\\avery\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\avery\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Users\\avery\\Downloads\\SupplementMATLAB244\\bin"
+        - "C:\\Program Files\\HP\\HP One Agent"
+        - "C:\\Program Files\\Wolfram Research\\WolframScript\\"
+        - "C:\\Program Files\\PuTTY\\"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\avery\\AppData\\Local\\Programs\\Python\\Python312\\Scripts\\"
+        - "C:\\Users\\avery\\AppData\\Local\\Programs\\Python\\Python312\\"
+        - "C:\\Users\\avery\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files\\Java\\jdk-19\\bin"
+        - "C:\\Users\\avery\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\avery\\AppData\\Local\\Programs\\MiKTeX\\miktex\\bin\\x64\\"
+        - "C:\\Users\\avery\\AppData\\Local\\GitHubDesktop\\bin"
+        - "c:\\Users\\avery\\.vscode\\extensions\\ms-python.debugpy-2025.18.0-win32-x64\\bundled\\scripts\\noConfigScripts"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/tracker_cpp"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/tracker_cpp"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/FindPythonInterp.cmake:174 (find_program)"
+      - "C:/Users/avery/AppData/Local/Programs/Python/Python312/share/cmake/pybind11/FindPythonLibsNew.cmake:114 (find_package)"
+      - "C:/Users/avery/AppData/Local/Programs/Python/Python312/share/cmake/pybind11/pybind11Tools.cmake:44 (find_package)"
+      - "C:/Users/avery/AppData/Local/Programs/Python/Python312/share/cmake/pybind11/pybind11Common.cmake:226 (include)"
+      - "C:/Users/avery/AppData/Local/Programs/Python/Python312/share/cmake/pybind11/pybind11Config.cmake:257 (include)"
+      - "CMakeLists.txt:10 (find_package)"
+    mode: "program"
+    variable: "PYTHON_EXECUTABLE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "python3.12"
+      - "python"
+    candidate_directories:
+      - "C:/Users/avery/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "C:/Users/avery/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Users/avery/Downloads/SupplementMATLAB244/bin/"
+      - "C:/Program Files/HP/HP One Agent/"
+      - "C:/Program Files/Wolfram Research/WolframScript/"
+      - "C:/Program Files/PuTTY/"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/avery/AppData/Local/Programs/Python/Python312/Scripts/"
+      - "C:/Users/avery/AppData/Local/Programs/Python/Python312/"
+      - "C:/Users/avery/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Program Files/Java/jdk-19/bin/"
+      - "C:/Users/avery/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/avery/AppData/Local/Programs/MiKTeX/miktex/bin/x64/"
+      - "C:/Users/avery/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Users/avery/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/sbin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/sbin/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/CMake/sbin/"
+      - "C:/Program Files/CMake/"
+      - "C:/Program Files (x86)/tracker_cpp/bin/"
+      - "C:/Program Files (x86)/tracker_cpp/sbin/"
+      - "C:/Program Files (x86)/tracker_cpp/"
+      - "/REGISTRY-NOTFOUND/"
+    searched_directories:
+      - "C:/Users/avery/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/python3.12.com"
+      - "C:/Users/avery/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/python3.12.exe"
+      - "C:/Users/avery/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/python3.12"
+      - "C:/Users/avery/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/python3.12.com"
+      - "C:/Users/avery/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/python3.12.exe"
+      - "C:/Users/avery/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/python3.12"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/python3.12.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/python3.12.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/python3.12"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/python3.12.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/python3.12.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/python3.12"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/python3.12.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/python3.12.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/python3.12"
+      - "C:/Windows/System32/python3.12.com"
+      - "C:/Windows/System32/python3.12.exe"
+      - "C:/Windows/System32/python3.12"
+      - "C:/Windows/python3.12.com"
+      - "C:/Windows/python3.12.exe"
+      - "C:/Windows/python3.12"
+      - "C:/Windows/System32/wbem/python3.12.com"
+      - "C:/Windows/System32/wbem/python3.12.exe"
+      - "C:/Windows/System32/wbem/python3.12"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/python3.12.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/python3.12.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/python3.12"
+      - "C:/Windows/System32/OpenSSH/python3.12.com"
+      - "C:/Windows/System32/OpenSSH/python3.12.exe"
+      - "C:/Windows/System32/OpenSSH/python3.12"
+      - "C:/Users/avery/Downloads/SupplementMATLAB244/bin/python3.12.com"
+      - "C:/Users/avery/Downloads/SupplementMATLAB244/bin/python3.12.exe"
+      - "C:/Users/avery/Downloads/SupplementMATLAB244/bin/python3.12"
+      - "C:/Program Files/HP/HP One Agent/python3.12.com"
+      - "C:/Program Files/HP/HP One Agent/python3.12.exe"
+      - "C:/Program Files/HP/HP One Agent/python3.12"
+      - "C:/Program Files/Wolfram Research/WolframScript/python3.12.com"
+      - "C:/Program Files/Wolfram Research/WolframScript/python3.12.exe"
+      - "C:/Program Files/Wolfram Research/WolframScript/python3.12"
+      - "C:/Program Files/PuTTY/python3.12.com"
+      - "C:/Program Files/PuTTY/python3.12.exe"
+      - "C:/Program Files/PuTTY/python3.12"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/python3.12.com"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/python3.12.exe"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/python3.12"
+      - "C:/Program Files/dotnet/python3.12.com"
+      - "C:/Program Files/dotnet/python3.12.exe"
+      - "C:/Program Files/dotnet/python3.12"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/python3.12.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/python3.12.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/python3.12"
+      - "C:/Program Files/Git/cmd/python3.12.com"
+      - "C:/Program Files/Git/cmd/python3.12.exe"
+      - "C:/Program Files/Git/cmd/python3.12"
+      - "C:/Program Files/CMake/bin/python3.12.com"
+      - "C:/Program Files/CMake/bin/python3.12.exe"
+      - "C:/Program Files/CMake/bin/python3.12"
+      - "C:/Users/avery/AppData/Local/Programs/Python/Python312/Scripts/python3.12.com"
+      - "C:/Users/avery/AppData/Local/Programs/Python/Python312/Scripts/python3.12.exe"
+      - "C:/Users/avery/AppData/Local/Programs/Python/Python312/Scripts/python3.12"
+      - "C:/Users/avery/AppData/Local/Programs/Python/Python312/python3.12.com"
+      - "C:/Users/avery/AppData/Local/Programs/Python/Python312/python3.12.exe"
+      - "C:/Users/avery/AppData/Local/Programs/Python/Python312/python3.12"
+      - "C:/Users/avery/AppData/Local/Microsoft/WindowsApps/python3.12.com"
+      - "C:/Users/avery/AppData/Local/Microsoft/WindowsApps/python3.12.exe"
+      - "C:/Users/avery/AppData/Local/Microsoft/WindowsApps/python3.12"
+      - "C:/Program Files/Java/jdk-19/bin/python3.12.com"
+      - "C:/Program Files/Java/jdk-19/bin/python3.12.exe"
+      - "C:/Program Files/Java/jdk-19/bin/python3.12"
+      - "C:/Users/avery/AppData/Local/Programs/Microsoft VS Code/bin/python3.12.com"
+      - "C:/Users/avery/AppData/Local/Programs/Microsoft VS Code/bin/python3.12.exe"
+      - "C:/Users/avery/AppData/Local/Programs/Microsoft VS Code/bin/python3.12"
+      - "C:/Users/avery/AppData/Local/Programs/MiKTeX/miktex/bin/x64/python3.12.com"
+      - "C:/Users/avery/AppData/Local/Programs/MiKTeX/miktex/bin/x64/python3.12.exe"
+      - "C:/Users/avery/AppData/Local/Programs/MiKTeX/miktex/bin/x64/python3.12"
+      - "C:/Users/avery/AppData/Local/GitHubDesktop/bin/python3.12.com"
+      - "C:/Users/avery/AppData/Local/GitHubDesktop/bin/python3.12.exe"
+      - "C:/Users/avery/AppData/Local/GitHubDesktop/bin/python3.12"
+      - "C:/Users/avery/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/python3.12.com"
+      - "C:/Users/avery/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/python3.12.exe"
+      - "C:/Users/avery/.vscode/extensions/ms-python.debugpy-2025.18.0-win32-x64/bundled/scripts/noConfigScripts/python3.12"
+      - "C:/Program Files/bin/python3.12.com"
+      - "C:/Program Files/bin/python3.12.exe"
+      - "C:/Program Files/bin/python3.12"
+      - "C:/Program Files/sbin/python3.12.com"
+      - "C:/Program Files/sbin/python3.12.exe"
+      - "C:/Program Files/sbin/python3.12"
+      - "C:/Program Files/python3.12.com"
+      - "C:/Program Files/python3.12.exe"
+      - "C:/Program Files/python3.12"
+      - "C:/Program Files (x86)/bin/python3.12.com"
+      - "C:/Program Files (x86)/bin/python3.12.exe"
+      - "C:/Program Files (x86)/bin/python3.12"
+      - "C:/Program Files (x86)/sbin/python3.12.com"
+      - "C:/Program Files (x86)/sbin/python3.12.exe"
+      - "C:/Program Files (x86)/sbin/python3.12"
+      - "C:/Program Files (x86)/python3.12.com"
+      - "C:/Program Files (x86)/python3.12.exe"
+      - "C:/Program Files (x86)/python3.12"
+      - "C:/Program Files/CMake/bin/python3.12.com"
+      - "C:/Program Files/CMake/bin/python3.12.exe"
+      - "C:/Program Files/CMake/bin/python3.12"
+      - "C:/Program Files/CMake/sbin/python3.12.com"
+      - "C:/Program Files/CMake/sbin/python3.12.exe"
+      - "C:/Program Files/CMake/sbin/python3.12"
+      - "C:/Program Files/CMake/python3.12.com"
+      - "C:/Program Files/CMake/python3.12.exe"
+      - "C:/Program Files/CMake/python3.12"
+      - "C:/Program Files (x86)/tracker_cpp/bin/python3.12.com"
+      - "C:/Program Files (x86)/tracker_cpp/bin/python3.12.exe"
+      - "C:/Program Files (x86)/tracker_cpp/bin/python3.12"
+      - "C:/Program Files (x86)/tracker_cpp/sbin/python3.12.com"
+      - "C:/Program Files (x86)/tracker_cpp/sbin/python3.12.exe"
+      - "C:/Program Files (x86)/tracker_cpp/sbin/python3.12"
+      - "C:/Program Files (x86)/tracker_cpp/python3.12.com"
+      - "C:/Program Files (x86)/tracker_cpp/python3.12.exe"
+      - "C:/Program Files (x86)/tracker_cpp/python3.12"
+      - "/REGISTRY-NOTFOUND/python3.12.com"
+      - "/REGISTRY-NOTFOUND/python3.12.exe"
+      - "/REGISTRY-NOTFOUND/python3.12"
+      - "C:/Users/avery/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/python.com"
+      - "C:/Users/avery/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/python.exe"
+      - "C:/Users/avery/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/python"
+      - "C:/Users/avery/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/python.com"
+      - "C:/Users/avery/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/python.exe"
+      - "C:/Users/avery/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/python"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/python.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/python.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/python"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/python.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/python.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/python"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/python.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/python.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/python"
+      - "C:/Windows/System32/python.com"
+      - "C:/Windows/System32/python.exe"
+      - "C:/Windows/System32/python"
+      - "C:/Windows/python.com"
+      - "C:/Windows/python.exe"
+      - "C:/Windows/python"
+      - "C:/Windows/System32/wbem/python.com"
+      - "C:/Windows/System32/wbem/python.exe"
+      - "C:/Windows/System32/wbem/python"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/python.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/python.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/python"
+      - "C:/Windows/System32/OpenSSH/python.com"
+      - "C:/Windows/System32/OpenSSH/python.exe"
+      - "C:/Windows/System32/OpenSSH/python"
+      - "C:/Users/avery/Downloads/SupplementMATLAB244/bin/python.com"
+      - "C:/Users/avery/Downloads/SupplementMATLAB244/bin/python.exe"
+      - "C:/Users/avery/Downloads/SupplementMATLAB244/bin/python"
+      - "C:/Program Files/HP/HP One Agent/python.com"
+      - "C:/Program Files/HP/HP One Agent/python.exe"
+      - "C:/Program Files/HP/HP One Agent/python"
+      - "C:/Program Files/Wolfram Research/WolframScript/python.com"
+      - "C:/Program Files/Wolfram Research/WolframScript/python.exe"
+      - "C:/Program Files/Wolfram Research/WolframScript/python"
+      - "C:/Program Files/PuTTY/python.com"
+      - "C:/Program Files/PuTTY/python.exe"
+      - "C:/Program Files/PuTTY/python"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/python.com"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/python.exe"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/python"
+      - "C:/Program Files/dotnet/python.com"
+      - "C:/Program Files/dotnet/python.exe"
+      - "C:/Program Files/dotnet/python"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/python.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/python.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/python"
+      - "C:/Program Files/Git/cmd/python.com"
+      - "C:/Program Files/Git/cmd/python.exe"
+      - "C:/Program Files/Git/cmd/python"
+      - "C:/Program Files/CMake/bin/python.com"
+      - "C:/Program Files/CMake/bin/python.exe"
+      - "C:/Program Files/CMake/bin/python"
+      - "C:/Users/avery/AppData/Local/Programs/Python/Python312/Scripts/python.com"
+      - "C:/Users/avery/AppData/Local/Programs/Python/Python312/Scripts/python.exe"
+      - "C:/Users/avery/AppData/Local/Programs/Python/Python312/Scripts/python"
+      - "C:/Users/avery/AppData/Local/Programs/Python/Python312/python.com"
+    found: "C:/Users/avery/AppData/Local/Programs/Python/Python312/python.exe"
+    search_context:
+      ENV{PATH}:
+        - "c:\\Users\\avery\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\avery\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Users\\avery\\Downloads\\SupplementMATLAB244\\bin"
+        - "C:\\Program Files\\HP\\HP One Agent"
+        - "C:\\Program Files\\Wolfram Research\\WolframScript\\"
+        - "C:\\Program Files\\PuTTY\\"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\avery\\AppData\\Local\\Programs\\Python\\Python312\\Scripts\\"
+        - "C:\\Users\\avery\\AppData\\Local\\Programs\\Python\\Python312\\"
+        - "C:\\Users\\avery\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files\\Java\\jdk-19\\bin"
+        - "C:\\Users\\avery\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\avery\\AppData\\Local\\Programs\\MiKTeX\\miktex\\bin\\x64\\"
+        - "C:\\Users\\avery\\AppData\\Local\\GitHubDesktop\\bin"
+        - "c:\\Users\\avery\\.vscode\\extensions\\ms-python.debugpy-2025.18.0-win32-x64\\bundled\\scripts\\noConfigScripts"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/tracker_cpp"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/tracker_cpp"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CheckCXXCompilerFlag.cmake:103 (cmake_check_compiler_flag)"
+      - "C:/Users/avery/AppData/Local/Programs/Python/Python312/share/cmake/pybind11/pybind11Common.cmake:321 (check_cxx_compiler_flag)"
+      - "C:/Users/avery/AppData/Local/Programs/Python/Python312/share/cmake/pybind11/pybind11Common.cmake:393 (_pybind11_return_if_cxx_and_linker_flags_work)"
+      - "C:/Users/avery/AppData/Local/Programs/Python/Python312/share/cmake/pybind11/pybind11Common.cmake:427 (_pybind11_generate_lto)"
+      - "C:/Users/avery/AppData/Local/Programs/Python/Python312/share/cmake/pybind11/pybind11Config.cmake:257 (include)"
+      - "CMakeLists.txt:10 (find_package)"
+    checks:
+      - "Performing Test HAS_MSVC_GL_LTCG"
+    directories:
+      source: "C:/Users/avery/Radar Signal Tracking Project/cpp/build/CMakeFiles/CMakeScratch/TryCompile-97lo28"
+      binary: "C:/Users/avery/Radar Signal Tracking Project/cpp/build/CMakeFiles/CMakeScratch/TryCompile-97lo28"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: ""
+    buildResult:
+      variable: "HAS_MSVC_GL_LTCG"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/avery/Radar Signal Tracking Project/cpp/build/CMakeFiles/CMakeScratch/TryCompile-97lo28'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_a9cc0.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.14.14+a129329f1 for .NET Framework
+        Build started 1/17/2026 4:51:24 PM.
+        
+        Project "C:\\Users\\avery\\Radar Signal Tracking Project\\cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-97lo28\\cmTC_a9cc0.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\avery\\Radar Signal Tracking Project\\cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-97lo28\\Debug\\".
+          Creating directory "cmTC_a9cc0.dir\\Debug\\cmTC_a9cc0.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_a9cc0.dir\\Debug\\cmTC_a9cc0.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_a9cc0.dir\\Debug\\cmTC_a9cc0.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /GL /D _MBCS /D WIN32 /D _WINDOWS /D HAS_MSVC_GL_LTCG /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /std:c++17 /Fo"cmTC_a9cc0.dir\\Debug\\\\" /Fd"cmTC_a9cc0.dir\\Debug\\vc143.pdb" /external:W1 /TP /errorReport:queue "C:\\Users\\avery\\Radar Signal Tracking Project\\cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-97lo28\\src.cxx"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35213 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /GL /D _MBCS /D WIN32 /D _WINDOWS /D HAS_MSVC_GL_LTCG /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /std:c++17 /Fo"cmTC_a9cc0.dir\\Debug\\\\" /Fd"cmTC_a9cc0.dir\\Debug\\vc143.pdb" /external:W1 /TP /errorReport:queue "C:\\Users\\avery\\Radar Signal Tracking Project\\cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-97lo28\\src.cxx"
+          src.cxx
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\avery\\Radar Signal Tracking Project\\cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-97lo28\\Debug\\cmTC_a9cc0.exe" /INCREMENTAL /ILK:"cmTC_a9cc0.dir\\Debug\\cmTC_a9cc0.ilk" /NOLOGO "-LTCG" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/avery/Radar Signal Tracking Project/cpp/build/CMakeFiles/CMakeScratch/TryCompile-97lo28/Debug/cmTC_a9cc0.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/avery/Radar Signal Tracking Project/cpp/build/CMakeFiles/CMakeScratch/TryCompile-97lo28/Debug/cmTC_a9cc0.lib" /MACHINE:X64  /machine:x64 cmTC_a9cc0.dir\\Debug\\src.obj
+        LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/LTCG' specification [C:\\Users\\avery\\Radar Signal Tracking Project\\cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-97lo28\\cmTC_a9cc0.vcxproj]
+          Generating code
+          Finished generating code
+          cmTC_a9cc0.vcxproj -> C:\\Users\\avery\\Radar Signal Tracking Project\\cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-97lo28\\Debug\\cmTC_a9cc0.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_a9cc0.dir\\Debug\\cmTC_a9cc0.tlog\\unsuccessfulbuild".
+          Touching "cmTC_a9cc0.dir\\Debug\\cmTC_a9cc0.tlog\\cmTC_a9cc0.lastbuildstate".
+        Done Building Project "C:\\Users\\avery\\Radar Signal Tracking Project\\cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-97lo28\\cmTC_a9cc0.vcxproj" (default targets).
+        
+        Build succeeded.
+        
+        "C:\\Users\\avery\\Radar Signal Tracking Project\\cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-97lo28\\cmTC_a9cc0.vcxproj" (default target) (1) ->
+        (Link target) -> 
+          LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/LTCG' specification [C:\\Users\\avery\\Radar Signal Tracking Project\\cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-97lo28\\cmTC_a9cc0.vcxproj]
+        
+            1 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.57
+        
+      exitCode: 0
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "CMakeLists.txt:10 (find_package)"
+    name: "pybind11"
+    configs:
+      -
+        filename: "pybind11Config.cmake"
+        kind: "cmake"
+      -
+        filename: "pybind11-config.cmake"
+        kind: "cmake"
+    version_request:
+      exact: false
+    settings:
+      required: "required_explicit"
+      quiet: false
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      names:
+        - "pybind11"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "C:/Users/avery/Radar Signal Tracking Project/cpp/build/CMakeFiles/pkgRedirects/pybind11Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/avery/Radar Signal Tracking Project/cpp/build/CMakeFiles/pkgRedirects/pybind11-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/avery/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/pybind11Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/avery/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/pybind11-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/avery/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/pybind11Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/avery/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/pybind11-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/pybind11Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/pybind11-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Common Files/Oracle/Java/javapath/pybind11Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Common Files/Oracle/Java/javapath/pybind11-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/pybind11Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/pybind11-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/pybind11Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/pybind11-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/pybind11Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/pybind11-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/wbem/pybind11Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/wbem/pybind11-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/WindowsPowerShell/v1.0/pybind11Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/WindowsPowerShell/v1.0/pybind11-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/OpenSSH/pybind11Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/OpenSSH/pybind11-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/avery/Downloads/SupplementMATLAB244/pybind11Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/avery/Downloads/SupplementMATLAB244/pybind11-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/HP/HP One Agent/pybind11Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/HP/HP One Agent/pybind11-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Wolfram Research/WolframScript/pybind11Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Wolfram Research/WolframScript/pybind11-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/PuTTY/pybind11Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/PuTTY/pybind11-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/pybind11Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/pybind11-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/dotnet/pybind11Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/dotnet/pybind11-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/pybind11Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/pybind11-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Git/cmd/pybind11Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Git/cmd/pybind11-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/CMake/pybind11Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/CMake/pybind11-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/avery/AppData/Local/Programs/Python/Python312/Scripts/pybind11Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/avery/AppData/Local/Programs/Python/Python312/Scripts/pybind11-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/avery/AppData/Local/Programs/Python/Python312/pybind11Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/avery/AppData/Local/Programs/Python/Python312/pybind11-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found:
+      path: "C:/Users/avery/AppData/Local/Programs/Python/Python312/share/cmake/pybind11/pybind11Config.cmake"
+      mode: "config"
+      version: "3.0.1"
+    search_context:
+      ENV{PATH}:
+        - "c:\\Users\\avery\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\avery\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Users\\avery\\Downloads\\SupplementMATLAB244\\bin"
+        - "C:\\Program Files\\HP\\HP One Agent"
+        - "C:\\Program Files\\Wolfram Research\\WolframScript\\"
+        - "C:\\Program Files\\PuTTY\\"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\avery\\AppData\\Local\\Programs\\Python\\Python312\\Scripts\\"
+        - "C:\\Users\\avery\\AppData\\Local\\Programs\\Python\\Python312\\"
+        - "C:\\Users\\avery\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files\\Java\\jdk-19\\bin"
+        - "C:\\Users\\avery\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\avery\\AppData\\Local\\Programs\\MiKTeX\\miktex\\bin\\x64\\"
+        - "C:\\Users\\avery\\AppData\\Local\\GitHubDesktop\\bin"
+        - "c:\\Users\\avery\\.vscode\\extensions\\ms-python.debugpy-2025.18.0-win32-x64\\bundled\\scripts\\noConfigScripts"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/tracker_cpp"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/tracker_cpp"
+...
