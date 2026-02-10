@@ -1,7 +1,7 @@
 import numpy as np
 
 class RadarModel:
-    def __init__(self, radar_pos = np.array([0.0, 0.0]), max_range = 10000, sigma_base = 75, range_ref = 5000, lambda_clutter = 50):
+    def __init__(self, radar_pos = np.array([0.0, 0.0]), max_range = 3000, sigma_base = 50, range_ref = 5000, lambda_clutter = 50):
         self.radar_pos = radar_pos
         self.max_range = max_range
         self.sigma_base = sigma_base
@@ -12,10 +12,6 @@ class RadarModel:
     def compute_range(self, position):
         return np.linalg.norm(position - self.radar_pos)
 
-    def compute_angle(self, position):
-        dx, dy = position - self.radar_pos
-        return np.arctan2(dy, dx)
-
     def compute_radial_velocity(self, velocity, position):
         r_vec = position - self.radar_pos
         r_hat = r_vec / np.linalg.norm(r_vec)
@@ -24,12 +20,6 @@ class RadarModel:
     # Noise and Uncertainty Models
     def sigma_range(self, r):
         return self.sigma_base * (r / self.range_ref)**2
-
-    def angle_noise(self):
-        return np.random.normal(0, np.deg2rad(1.0))
-
-    def doppler_noise(self):
-        return np.random.normal(0, 0.5)
 
     # Detection Model
     def detection_probability(self, r, P_Max = 0.95, k=2):

@@ -48,7 +48,7 @@ def plot_trajectory_with_measurements(trajectory, all_frames):
     plt.figure(figsize=(8, 8))
 
     # Colors that contrast well with red clutter
-    colors = ["#00B7EB", "#32CD32", "#1E3A8A"]  # cyan, lime, deep blue
+    colors = ["#00B8EB", "#32CD32", "#215BFC", "#E6E6E6", "#000000" ]  # cyan, lime, deep blue
 
     # Plot each object's trajectory with its custom color
     for obj in range(num_objects):
@@ -115,21 +115,6 @@ def plot_innovation_components(innovation_components):
     plt.grid(True)
     plt.legend()
     plt.show()
-
-
-# # =========================================================
-# # 6. PDA Betas Over Time
-# # =========================================================
-# def plot_beta_history(beta_history):
-#     plt.figure(figsize=(8,4))
-#     for i, betas in enumerate(beta_history):
-#         plt.plot(betas, alpha=0.5)
-#     plt.title("PDA Betas Over Time")
-#     plt.xlabel("Measurement Index")
-#     plt.ylabel("Beta Value")
-#     plt.grid(True)
-#     plt.show()
-
 
 # =========================================================
 # 7. Measurement Density Heatmap

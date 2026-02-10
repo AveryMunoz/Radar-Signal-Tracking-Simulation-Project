@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 # Base simulation parameters
 boxSize = 1000 
 mapSize = 1500
-numObjects = 3
+numObjects = 5
 totalTime = 100
 velocityRange = [-20, 20]
 dt = 1
@@ -20,13 +20,4 @@ objectTrajectory[:, 0, :] = positions
 for t in range (1, totalTime):
     positions = positions + velocities * dt
     objectTrajectory[:, t, :] = positions
-    
-print("Initial Positions: ")
-for i in range(numObjects):
-    print(f"Object {i+1}: {objectTrajectory[i, 0, :]}")
 
-print("\nFinal Positions: ")
-for i in range(numObjects):
-    print(f"Object {i+1}: {objectTrajectory[i, -1, :]}")
-
-# --- 1. TRUE TRAJECTORIES ---

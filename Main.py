@@ -131,7 +131,7 @@ for t in range(num_frames):
         # -------------------------------------------------
         # 1. Predict
         # -------------------------------------------------
-        gate = Gate(gate_threshold=80)
+        gate = Gate(gate_threshold=50)
 
         if USE_CPP:
             # Convert to Fortran order for C++
@@ -370,3 +370,4 @@ plot_trajectory_with_measurements(
     trajectory,
     all_frames
 )
+
