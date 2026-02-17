@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 # Base simulation parameters
 boxSize = 1000 
 mapSize = 1500
-numObjects = 5
+numObjects = 3
 totalTime = 100
 velocityRange = [-20, 20]
 dt = 1
