@@ -1,7 +1,7 @@
 import numpy as np
 
 class RadarModel:
-    def __init__(self, radar_pos = np.array([0.0, 0.0]), max_range = 3000, sigma_base = 50, range_ref = 5000, lambda_clutter = 50):
+    def __init__(self, radar_pos = np.array([0.0, 0.0]), max_range = 3000, sigma_base = 20, range_ref = 7500, lambda_clutter = 25):
         self.radar_pos = radar_pos
         self.max_range = max_range
         self.sigma_base = sigma_base
